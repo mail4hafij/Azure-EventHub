@@ -8,8 +8,8 @@ Fill in the neccessary information in *SendEvents/Program.cs*
 Fill in the necessary information in *ReceiveEvents/Program.cs*
 > private const string ConnectionString = "your_event_hub_connection_string";
 > private const string EventHubName = "your_event_hub_name";
-> private const string BlobStorageConnectionString = "your_blob_connection_string";
-> private const string BlobContainerName = "your_container_name";
+> private const string StorageAccountConnectionString = "your_storage_account_connection_string";
+> private const string BlobContainerName = "your_blob_container_name";
 
 
 <img src="Architecture.jpg" />
