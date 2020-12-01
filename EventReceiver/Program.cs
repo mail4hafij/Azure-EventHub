@@ -6,7 +6,7 @@ using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Consumer;
 using Azure.Messaging.EventHubs.Processor;
 
-namespace ReceiveEvents
+namespace EventReceiver
 {
     class Program
     {
@@ -33,14 +33,14 @@ namespace ReceiveEvents
 
         static async Task ProcessEventHandler(ProcessEventArgs eventArgs)
         {
-            Console.WriteLine("\tEvent received: {0}", Encoding.UTF8.GetString(eventArgs.Data.Body.ToArray()));
+            Console.WriteLine("Event received: {0}", Encoding.UTF8.GetString(eventArgs.Data.Body.ToArray()));
             // Important: make sure the save the checkpoint.
             await eventArgs.UpdateCheckpointAsync(eventArgs.CancellationToken);
         }
 
         static Task ProcessErrorHandler(ProcessErrorEventArgs eventArgs)
         {
-            Console.WriteLine($"\tException in partition '{ eventArgs.PartitionId}': an unhandled exception has occurred.");
+            Console.WriteLine($"Exception in partition '{ eventArgs.PartitionId}': an unhandled exception has occurred.");
             Console.WriteLine(eventArgs.Exception.Message);
             return Task.CompletedTask;
         } 

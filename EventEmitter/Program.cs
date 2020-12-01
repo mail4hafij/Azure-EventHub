@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Azure.Messaging.EventHubs;
 using Azure.Messaging.EventHubs.Producer;
 
-namespace SendEvents
+namespace EventEmitter
 {
     class Program
     {

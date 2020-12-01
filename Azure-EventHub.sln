@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEvents", "SendEvents\SendEvents.csproj", "{9C7F292F-84C2-400A-9076-F60961E98DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventEmitter", "EventEmitter\EventEmitter.csproj", "{9C7F292F-84C2-400A-9076-F60961E98DA8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveEvents", "ReceiveEvents\ReceiveEvents.csproj", "{243F5569-DE0F-42AF-92B2-0E8A08D81E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventReceiver", "EventReceiver\EventReceiver.csproj", "{243F5569-DE0F-42AF-92B2-0E8A08D81E21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71A2A122-480F-480E-953A-5AC952AE3142}"
 	ProjectSection(SolutionItems) = preProject
