@@ -17,4 +17,4 @@ private const string BlobContainerName = "your_blob_container_name";
 
 <img src="Architecture.jpg" />
 
-There are other events streaming solutions in azure. Checkout Azure EventGrid (https://github.com/mail4hafij/Azure-EventHub) or Azure ServiceBus (https://github.com/mail4hafij/Azure-ServiceBus). You can also use RabbitMQ message queue and orchestrate in kubernetes. Checkout the repo here https://github.com/mail4hafij/rabbit_event_stream.
+There are other events streaming solutions in azure. Checkout Azure ServiceBus (https://github.com/mail4hafij/Azure-ServiceBus) or Azure EventGrid (https://github.com/mail4hafij/Azure-EventGrid). You can also use RabbitMQ message queue and orchestrate in kubernetes. Checkout the repo here https://github.com/mail4hafij/rabbit_event_stream.
